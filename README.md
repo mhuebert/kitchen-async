@@ -1,3 +1,10 @@
+this is a minor fork - for publishing a fixed version Clojars:
+
+[![Clojars Project](https://img.shields.io/clojars/v/mhuebert/kitchen-async.svg)](https://clojars.org/mhuebert/kitchen-async)
+```
+mhuebert/kitchen-async {:mvn/version "0.1.0"}
+```
+----
 # kitchen-async
 [![Clojars Project](https://img.shields.io/clojars/v/kitchen-async.svg)](https://clojars.org/kitchen-async)
 [![CircleCI](https://circleci.com/gh/athos/kitchen-async.svg?style=shield)](https://circleci.com/gh/athos/kitchen-async)
