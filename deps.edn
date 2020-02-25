@@ -5,4 +5,7 @@
  {:dev {:extra-deps {com.cemerick/piggieback {:mvn/version "0.2.2"}}}
   :test-jvm {:extra-paths ["test/common" "test/jvm"]
              :extra-deps {doo {:mvn/version "0.1.8"}}}
-  :test-self-hosted {:extra-paths ["test/common" "test/self-hosted"]}}}
+  :test-self-hosted {:extra-paths ["test/common" "test/self-hosted"]}
+  :release
+  {:extra-deps {mhuebert/deps-library {:mvn/version "0.1.4"}}
+   :main-opts ["-m" "deps-library.release"]}}}

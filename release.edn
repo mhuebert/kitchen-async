@@ -1,0 +1,3 @@
+{:group-id "mhuebert"
+ :artifact-id "kitchen-async"
+ :scm-url "https://github.com/mhuebert/kitchen-async"}
